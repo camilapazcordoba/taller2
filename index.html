@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="banner">
+
+        <h1 class="banner-title">Ping pong junto a tu artista</h1>
+
+        <div class="subtitle-container">
+            <h3 class="banner-subtitle">Sorteamos 3 encuentros para hacerle un ping pong a tu artista favorito, cara a cara.
+                Solo dejando tu nombre y Mail, ya estas participando! </h3>
+        </div>
+       
+
+        <button class="banner-cta" data-toggle="modal" data-target="#exampleModal">Participar</button>
+
+        <div class="participante">
+            <p>Solo se puede participar siendo mayor de 18 años.</p>
+        </div>
+
+    </div>
+
+    <div class="cuadrado-fondo">
+        <h3 class="carrousel-title">Próximos artistas entrevistados</h3>
+
+        <div class="scroll-container">
+            <div class="scroll-item">
+
+                <div class="scroll-card">
+                    <img class="scroll-img" src="imagenes/1.png" alt="">
+
+                    <div class="card-info">
+                        <p class="scroll-text">Nicki Nicole </p> <br>
+                        <p class="scroll-text">Viernes 03 de Mayo</p>
+                    </div>
+                </div>
+
+                <div class="scroll-card">
+                    <img class="scroll-img" src="imagenes/2.png" alt="">
+
+                    <div class="card-info">
+                        <p class="scroll-text">Julian Kartun</p> <br>
+                        <p class="scroll-text">Viernes 10 de Mayo</p>
+                    </div>
+                </div>
+
+                <div class="scroll-card">
+                    <img class="scroll-img" src="imagenes/3.png" alt="">
+
+                    <div class="card-info">
+                        <p class="scroll-text">Maria Becerra</p> <br>
+                        <p class="scroll-text">Viernes 17 de Mayo</p>
+                    </div>
+                </div>
+
+                <div class="scroll-card">
+                    <img class="scroll-img" src="imagenes/4.png" alt="">
+
+                    <div class="card-info">
+                        <p class="scroll-text">Airbag</p> <br>
+                        <p class="scroll-text">Viernes 24 de Mayo</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="bullet-titulo">
+        <h2>Información acerca del sorteo</h2>
+    </div>
+
+    <div class="bullet-container">
+
+        <div class="bullet">
+
+            <img class="bullet-img" src="imagenes/signo.png" alt="">
+            <p class="bullet-text">¿Cómo participo? </p>
+            <p class="bullet-text2">Solamente completando el formulario dando tu nombre, apellido y mail.</p>
+
+
+        </div>
+
+        <div class="bullet">
+
+            <img class="bullet-img" src="imagenes/msj.png" alt="">
+            <p class="bullet-text">¿Por dónde avisan a los ganadores?</p>
+            <p class="bullet-text2">Los 3 ganadores serán nombrados en vivo por instagram y notificados por mail.</p>
+
+        </div>
+
+        <div class="bullet">
+
+            <img class="bullet-img" src="imagenes/ubicacion.png" alt="">
+            <p class="bullet-text">¿Dónde debo presentarme si gano?</p>
+            <p class="bullet-text2"> Debo estar con 30 minutos de anticipación en Av. Corrientes 1507, CABA.</p>
+
+        </div>
+    </div>
+    
+    <div class="top-titulo">
+        <h2>Te invitamos a ver nuestras entrevistas con más vistas en este 2024</h2>
+    </div>
+
+    <div class="top-container">
+        
+        <div class="top">
+
+            <img class="top-img" src="imagenes/charly2.jpeg" alt="">
+            <p class="top-text">Charly Garcia</p>
+            <p class="top-text2">El icóno del rock argentino Charly Garcia nos hace un recorido por sus 56 álbumes. La entrevista ya con 4.3 Millones de visitas.</p>
+
+
+        </div>
+
+        <div class="top">
+
+            <img class="top-img" src="imagenes/piti2.png" alt="">
+            <p class="top-text">Piti Fernández</p>
+            <p class="top-text2">Nuestra entrevista con el cantante de Las Pastillas del abuelo cuenta con 3.5 Millones de vistas.</p>
+
+        </div>
+
+        <div class="top">
+
+            <img class="top-img" src="imagenes/wos2.png" alt="">
+            <p class="top-text">Wos</p>
+            <p class="top-text2">Wos nos presenta su nueva canción "Quemaras" su último éxito junto al Indio Solari. La entrevista ya cuenta con 3.2 Millones de vistas.</p>
+
+        </div>
+    </div>
+
+    <div class="indio-container">
+
+        <div class="titulo-indio">
+            <p><h2>Resumen de la entrevista más reciente</h2></p>
+        </div>
+        <div class="indio">
+            <img src="imagenes/indio (2).gif" width="1108px" height="500px" alt="">
+        </div>
+
+    </div>
+    <div class="form">
+        <form class="formulario" id="formulario">
+            <p class="title">Ping Pong junto a tu artista</p>
+            <p class="message">Sorteamos 3 encuentros para un ping pong a tu artista favorito, cara a cara. Solo dejanos tu nombre, apellido y email, y ya estas participando! </p>
+        
+            <label for="nombre">
+                <input class="input" type="text" name="nombre" id="nombre" placeholder="" required>
+                <span class="nombreInput">Nombre</span>
+            </label>
+             
+            <label for="apellido">
+                <input class="input" type="text" name="apellido" id="apellido" placeholder="" required>
+                <span class="nombreInput">Apellido</span>
+            </label> 
+                
+            <label for="email">
+                <input class="input" type="email" name="email" id="email" placeholder="" required>
+                <span class="nombreInput">Email</span>
+            </label>
+    
+            <button class="submit" id="boton-enviar" value="participar">Participar</button>
+
+            <div class="participante2">
+                <p>Solo se puede participar siendo mayor de 18 años.</p>
+            </div>
+        
+        </form>
+    
+        <section class="feedback oculto" id="feedback">
+            <h2>¡Hola <b><span id="nombre-placeholder"></span> <span id="apellido-placeholder"></span></b>!</h2>
+            <h3>Gracias por participar</h3>
+            <p>Ya estas participando uno de los 3 encuentros para un ping pong con tu artista favorito cara a cara. <br></p>
+            <p>Recuerda estar atento/a al <span id="email-placeholder"></span> o al vivo de Instagram por si llegas a ganar. Éxitos!</p>
+        </section>
+    
+        <script src="./script.js"></script>
+        </div>
+    </div>
+
+
+
+    <div class="footer-container">
+
+        <div class="footer-item">
+            <img class="footer-img" src="imagenes/fb.png" alt="">
+            <img class="footer-img" src="imagenes/insta.png" alt="">
+            <img class="footer-img" src="imagenes/x.png" alt="">
+        </div>
+
+        <div class="footer-item">
+            <p class="footer-text">Copyright © 2024</p>
+            <p class="footer-text">Preguntas de privacidad</p>
+            <p class="footer-text">Políticas de publicidad</p>
+            <p class="footer-text">Términos y condiciones</p>
+        </div>
+
+    </div>
+</body>
+</html>
